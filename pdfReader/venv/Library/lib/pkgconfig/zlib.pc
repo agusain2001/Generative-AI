@@ -1,0 +1,13 @@
+prefix=G:/pdfReader/venv/Library
+exec_prefix=G:/pdfReader/venv/Library
+libdir=G:/pdfReader/venv/Library/lib
+sharedlibdir=G:/pdfReader/venv/Library/lib
+includedir=G:/pdfReader/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
